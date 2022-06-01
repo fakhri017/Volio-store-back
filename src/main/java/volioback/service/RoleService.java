@@ -2,7 +2,7 @@ package volioback.service;
 
 
 import org.springframework.stereotype.Service;
-import volioback.entity.Role;
+import volioback.domain.entity.Role;
 
 @Service
 public interface RoleService {

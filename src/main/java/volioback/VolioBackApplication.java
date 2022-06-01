@@ -5,17 +5,13 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
-import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
-import volioback.entity.Role;
-import volioback.entity.User;
 import volioback.service.RoleService;
 import volioback.service.UserService;
 
-import java.util.ArrayList;
 @SpringBootApplication
 @EnableSwagger2
-public class DemoApplication {
+public class VolioBackApplication {
 
     @Bean
     public BCryptPasswordEncoder passwordEncoder() {
@@ -24,7 +20,7 @@ public class DemoApplication {
 
 
     public static void main(String[] args) {
-        SpringApplication.run(DemoApplication.class, args);
+        SpringApplication.run(VolioBackApplication.class, args);
     }
 
     @Bean

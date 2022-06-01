@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import volioback.entity.Role;
+import volioback.domain.entity.Role;
 import volioback.service.RoleService;
 
 @RestController

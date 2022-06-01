@@ -3,7 +3,7 @@ package volioback.repository;
 
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
-import volioback.entity.User;
+import volioback.domain.entity.User;
 
 import java.util.Optional;
 
