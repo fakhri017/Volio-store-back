@@ -1,4 +1,4 @@
-package volioback.entity;
+package volioback.domain.entity;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;

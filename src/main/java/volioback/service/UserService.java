@@ -3,7 +3,7 @@ package volioback.service;
 
 
 import org.springframework.stereotype.Service;
-import volioback.entity.User;
+import volioback.domain.entity.User;
 
 import java.util.List;
 

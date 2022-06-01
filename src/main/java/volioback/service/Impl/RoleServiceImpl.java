@@ -4,7 +4,7 @@ package volioback.service.Impl;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import volioback.entity.Role;
+import volioback.domain.entity.Role;
 import volioback.repository.RoleRepository;
 import volioback.service.RoleService;
 
